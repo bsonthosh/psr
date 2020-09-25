@@ -1,0 +1,6 @@
+/target/
+/bin/
+/psr.log
+/.classpath
+/.project
+/.settings/
