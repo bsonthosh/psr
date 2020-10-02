@@ -30,18 +30,18 @@ public class PsrController {
     @PostMapping("/test")
     public Response postHealthCheck(@RequestBody Request request) {
 
-	return new Response("200", "SUCCESS", request.getInput());
+	return new Response("200", "SAVED SUCCESSFULLY", request.getInput());
     }
 
     @PutMapping("/test")
     public Response updateHealthCheck(@RequestBody Request request) {
 
-	return new Response("200", "SUCCESS", request.getInput());
+	return new Response("200", "UPDATED SUCCESSFULLY", request.getInput());
     }
 
     @DeleteMapping("/test")
     public Response deleteHealthCheck(@RequestBody Request request) {
 
-	return new Response("200", "SUCCESS", request.getInput());
+	return new Response("200", "DELETED SUCCESSFULLY", request.getInput());
     }
 }
